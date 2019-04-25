@@ -147,7 +147,6 @@ import Popup from '@/components/Popup';
         dialog: false,
         snackbar: false,
         snackMessage: '',
-        dialog: false,
         menu: false,
         loading: false,
         feedback: '',
@@ -203,7 +202,7 @@ import Popup from '@/components/Popup';
             })
             .catch(error => {
               this.snackbar = true;
-              this.snackMessage = `Project: (${project.title}) couldn't be removed.`;
+              this.snackMessage = `Project: (${project.title}) couldn't be removed. ${error.message}`;
             });
         } else {
           return;

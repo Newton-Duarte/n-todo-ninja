@@ -52,7 +52,10 @@ export default {
       if (this.user.role == 'admin') {
         const addAdminRole = functions.httpsCallable('addAdminRole');
         addAdminRole({ email: user.email })
-          .then(result => console.log(result));
+          .then(result => {
+            this.snackbar = true;
+            this.snackMessage = result.message;    
+          });
       } else {
         this.snackbar = true;
         this.snackMessage = 'Sorry, only a true master ninja can make this action.';

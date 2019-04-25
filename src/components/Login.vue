@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import { db, auth } from '@/fb';
+import { auth } from '@/fb';
 
 export default {
   data() {

@@ -72,7 +72,6 @@ export default {
           .catch(error => {
             this.loading = false;
             this.feedback = error.message;
-            console.log(error.message)
           });
       }
     }

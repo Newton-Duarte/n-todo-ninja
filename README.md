@@ -1,5 +1,7 @@
 # todo-ninja
 
+### This project was created based on the [Vuetify Tutorial](https://www.youtube.com/watch?v=2uZYKcKHgU0&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5) from [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg/featured) and coded by Newton Duarte
+
 ## Project setup
 ```
 npm install
